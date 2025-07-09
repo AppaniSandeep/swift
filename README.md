@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Frontend Internship Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React application that demonstrates routing, data fetching, and component-based structure. The app fetches comments from a public API and displays them on a dashboard. It also includes a basic profile page and a navigation bar.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- React functional components with Hooks
+- Routing using `react-router-dom`
+- Fetching data from `https://jsonplaceholder.typicode.com/comments`
+- Simple and clean UI with CSS styling
+- Component-based structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Project Structure
 
-### `npm test`
+react-comments-dashboard/
+│
+├── public/
+│
+├── src/
+│ ├── components/
+│ │ ├── Navbar.js
+│ │ ├── Dashboard.js
+│ │ └── Profile.js
+│ ├── App.js
+│ ├── App.css
+│ └── index.js
+│
+├── package.json
+└── README.md
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    git clone https://github.com/your-username/react-comments-dashboard.git
+    cd react-comments-dashboard
 
-### `npm run eject`
+2.Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3.Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    npm start
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Open http://localhost:3000 in your browser to see the app running.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4.🌐 Routes
+    Route	Component	Description
+    /	Profile	Displays a basic profile page
+    /dashboard	Dashboard	Shows list of fetched comments
 
-### Code Splitting
+5.🧱 Technologies Used
+    React
+    JavaScript (ES6+)
+    Bootstrap
+    CSS
+    React Router DOM
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6.📦 API Used
+    JSONPlaceholder - Comments
 
-### Analyzing the Bundle Size
+7.📌 Notes
+    Ensure internet access to fetch the mock API data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    You can expand this project by adding user authentication, form inputs, or pagination.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
