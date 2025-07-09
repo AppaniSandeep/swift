@@ -39,7 +39,7 @@ react-comments-dashboard/
 
 1. **Clone the repository:**
 
-    git clone https://github.com/your-username/react-comments-dashboard.git
+    git clone https://github.com/AppaniSandeep/swift.git
     cd react-comments-dashboard
 
 2.Install dependencies:
